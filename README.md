@@ -1,7 +1,7 @@
 # Game-of-Life
 The realisation of game named "Game of Life" on C++.
 
-Develop an src/game_of_life.cpp program in C++ – a visualization of The Game of Life. To display the graphics, only use ASCII characters (with output to the terminal). Need to implement interactive version of the Game of life. Also create the option for adjusting the speed of the "game". ==***
+Develop an src/game_of_life.cpp program in C++ – a visualization of The Game of Life. To display the graphics, only use ASCII characters (with output to the terminal). Need to implement interactive version of the Game of life. Also create the option for adjusting the speed of the "game".
 
 * ***Graphics***
 
