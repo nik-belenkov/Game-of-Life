@@ -1,25 +1,23 @@
-# Game-of-Life
-The realisation of game named "Game of Life" on C++.
+***На языке программирования С++ разработать программу src/game_of_life.cpp, представляющую собой визуализацию "The Game of Life". Для отображения графики использовать только символьную (ASCII) графику (с выводом в терминал). Необходимо реализовать в игре Game of life интерактивный режим, c настройкой скорости игры. ==***
 
-Develop an src/game_of_life.cpp program in C++ – a visualization of The Game of Life. To display the graphics, only use ASCII characters (with output to the terminal). Need to implement interactive version of the Game of life. Also create the option for adjusting the speed of the "game". ==***
+* ***Графика*** 
 
-* ***Graphics***
+Поле — прямоугольник 80 на 25 клеток.
+Подразумевается, что поле "замкнуто само на себя", к примеру у нижнего правого квадратика соседом справа является нижний левый квадратик, а соседом снизу - верхний правый.
 
-Treat the playing field - a rectangle of 80 by 25 cells – as a matrix of the state of the "game". 
-It is assumed that the field is "closed to itself", for example, in the lower right square, the neighbor on the right is the lower left square, and the neighbor on the bottom is the upper right.
-Provide for original initialization of the "game" state via stdin. Prepare at least 5 files with initial states for quick launch and initialization through input redirection. 
+Предусмотреть начальную инициализацию состояния "игры" через stdin. Подготовить как минимум 5 файлов с начальным состоянием для быстрого запуска и инициализации через перенаправление ввода.
 
-## Important notes:
+## Важно
 
-* The game must be written in C++, have a structured style, and run from the terminal; 
+* Игра должна быть разработана на языке С++, в структурном стиле и работать из терминала;
   
-* Source code will be tested by the static analyzer `cppcheck`, as well as the style linter `clang-format`. 
-  
-* Instructions on how to run these tests on your computer are in the `materials` folder. 
+* Проверить код статическим анализатором ```cppcheck```, а также стилевым линтером ```clang-format```.
 
-* Check program for memory leaks!
+* Инструкция о том, как запустить эти тесты у себя на компьютере, лежит в папке `materials`.
 
-## Some facts.
+* Проверить программу на утечки памяти!
+
+# Some facts.
 
 >The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine.
 >
@@ -51,3 +49,4 @@ Provide for original initialization of the "game" state via stdin. Prepare at le
 >Since its publication, the Game of Life has attracted much interest because of the surprising ways in which the patterns can evolve. It provides an example of emergence and self-organization. Scholars in various fields, such as computer science, physics, biology, biochemistry, economics, mathematics, philosophy, and generative sciences, have made use of the way that complex patterns can emerge from the implementation of the game's simple rules. The game can also serve as a didactic analogy, used to convey the somewhat counter-intuitive notion that design and organization can spontaneously emerge in the absence of a designer. For example, cognitive scientist Daniel Dennett has used the analogy of the Game of Life "universe" extensively to illustrate the possible evolution of complex philosophical constructs, such as consciousness and free will, from the relatively simple set of deterministic physical laws which might govern our universe.
 >
 >The popularity of the Game of Life was helped by its coming into being at the same time as increasingly inexpensive computer access. The game could be run for hours on these machines, which would otherwise have remained unused at night. In this respect, it foreshadowed the later popularity of computer-generated fractals. For many, the Game of Life was simply a programming challenge: a fun way to use otherwise wasted CPU cycles. For some, however, the Game of Life had more philosophical connotations. It developed a cult following through the 1970s and beyond; current developments have gone so far as to create theoretic emulations of computer systems within the confines of a Game of Life board.
+
